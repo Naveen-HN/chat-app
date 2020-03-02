@@ -12,7 +12,7 @@ function App() {
       <section id="main">
         <MessagesList />
         <AddMessage />
-      </section>
+      </section>{" "}
     </div>
   );
 }

@@ -27,10 +27,4 @@ AddMessage.propTypes = {
   dispatch: PropTypes.func.isRequired
 };
 
-// const mapDispatchToProps = dispatch => ({
-//   dispatch: (message, author) => {
-//     dispatch(addMessage(message, author));
-//   }
-// });
-
 export default connect()(AddMessage);
